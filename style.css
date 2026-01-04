@@ -1,0 +1,7 @@
+div[data-widget-card="default"]:has(iframe[src*="billingresources"]) {
+  display: none !important;
+}
+li[data-sidebar="menu-item"]:has(span.truncate:text("Billing Information")),
+li[data-sidebar="menu-item"]:has(span.truncate:text("My Invoices")) {
+  display: none !important;
+}
